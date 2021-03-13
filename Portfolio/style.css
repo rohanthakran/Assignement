@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    justify-content: space-around  !important;
+}
+#about img{
+filter: grayscale(100%);
+}
+#about img:hover {
+    transition: filter .5s ease-in-out;
+    filter: grayscale(0%);
+}
+.colu{
+    width: 100px;
+}
+.space{
+    margin: 3rem;
+}
+.mybuttons {
+    display: flex;
+    justify-content: space-between;
+}
+.button1{
+    color: #1a73e8;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-decoration: none;
+}
+
+
+.foot {
+    height: 200px;
+    padding: 50px;
+}
+@media (max-width: 768px){
+.d-flex {
+    flex-direction: column;
+}
+}
